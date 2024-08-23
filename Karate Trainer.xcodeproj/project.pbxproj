@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93215EDF2C79145700A0974B /* Karate_TrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */; };
+		93215EE12C79145700A0974B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EE02C79145700A0974B /* ContentView.swift */; };
+		93215EE32C79145700A0974B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EE22C79145700A0974B /* Item.swift */; };
+		93215EE52C79145900A0974B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93215EE42C79145900A0974B /* Assets.xcassets */; };
+		93215EE92C79145900A0974B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93215EE82C79145900A0974B /* Preview Assets.xcassets */; };
+		93215EF32C79145900A0974B /* Karate_TrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EF22C79145900A0974B /* Karate_TrainerTests.swift */; };
+		93215EFD2C79145900A0974B /* Karate_TrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EFC2C79145900A0974B /* Karate_TrainerUITests.swift */; };
+		93215EFF2C79145900A0974B /* Karate_TrainerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EFE2C79145900A0974B /* Karate_TrainerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93215EEF2C79145900A0974B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93215ED32C79145700A0974B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93215EDA2C79145700A0974B;
+			remoteInfo = "Karate Trainer";
+		};
+		93215EF92C79145900A0974B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93215ED32C79145700A0974B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93215EDA2C79145700A0974B;
+			remoteInfo = "Karate Trainer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93215EDB2C79145700A0974B /* Karate Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karate Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_TrainerApp.swift; sourceTree = "<group>"; };
+		93215EE02C79145700A0974B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93215EE22C79145700A0974B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		93215EE42C79145900A0974B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93215EE62C79145900A0974B /* Karate_Trainer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Karate_Trainer.entitlements; sourceTree = "<group>"; };
+		93215EE82C79145900A0974B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93215EEE2C79145900A0974B /* Karate TrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karate TrainerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93215EF22C79145900A0974B /* Karate_TrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_TrainerTests.swift; sourceTree = "<group>"; };
+		93215EF82C79145900A0974B /* Karate TrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karate TrainerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93215EFC2C79145900A0974B /* Karate_TrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_TrainerUITests.swift; sourceTree = "<group>"; };
+		93215EFE2C79145900A0974B /* Karate_TrainerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_TrainerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93215ED82C79145700A0974B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93215EEB2C79145900A0974B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93215EF52C79145900A0974B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93215ED22C79145700A0974B = {
+			isa = PBXGroup;
+			children = (
+				93215EDD2C79145700A0974B /* Karate Trainer */,
+				93215EF12C79145900A0974B /* Karate TrainerTests */,
+				93215EFB2C79145900A0974B /* Karate TrainerUITests */,
+				93215EDC2C79145700A0974B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93215EDC2C79145700A0974B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93215EDB2C79145700A0974B /* Karate Trainer.app */,
+				93215EEE2C79145900A0974B /* Karate TrainerTests.xctest */,
+				93215EF82C79145900A0974B /* Karate TrainerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93215EDD2C79145700A0974B /* Karate Trainer */ = {
+			isa = PBXGroup;
+			children = (
+				93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */,
+				93215EE02C79145700A0974B /* ContentView.swift */,
+				93215EE22C79145700A0974B /* Item.swift */,
+				93215EE42C79145900A0974B /* Assets.xcassets */,
+				93215EE62C79145900A0974B /* Karate_Trainer.entitlements */,
+				93215EE72C79145900A0974B /* Preview Content */,
+			);
+			path = "Karate Trainer";
+			sourceTree = "<group>";
+		};
+		93215EE72C79145900A0974B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93215EE82C79145900A0974B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93215EF12C79145900A0974B /* Karate TrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				93215EF22C79145900A0974B /* Karate_TrainerTests.swift */,
+			);
+			path = "Karate TrainerTests";
+			sourceTree = "<group>";
+		};
+		93215EFB2C79145900A0974B /* Karate TrainerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93215EFC2C79145900A0974B /* Karate_TrainerUITests.swift */,
+				93215EFE2C79145900A0974B /* Karate_TrainerUITestsLaunchTests.swift */,
+			);
+			path = "Karate TrainerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93215EDA2C79145700A0974B /* Karate Trainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93215F022C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate Trainer" */;
+			buildPhases = (
+				93215ED72C79145700A0974B /* Sources */,
+				93215ED82C79145700A0974B /* Frameworks */,
+				93215ED92C79145700A0974B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karate Trainer";
+			productName = "Karate Trainer";
+			productReference = 93215EDB2C79145700A0974B /* Karate Trainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93215EED2C79145900A0974B /* Karate TrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93215F052C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate TrainerTests" */;
+			buildPhases = (
+				93215EEA2C79145900A0974B /* Sources */,
+				93215EEB2C79145900A0974B /* Frameworks */,
+				93215EEC2C79145900A0974B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93215EF02C79145900A0974B /* PBXTargetDependency */,
+			);
+			name = "Karate TrainerTests";
+			productName = "Karate TrainerTests";
+			productReference = 93215EEE2C79145900A0974B /* Karate TrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93215EF72C79145900A0974B /* Karate TrainerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93215F082C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate TrainerUITests" */;
+			buildPhases = (
+				93215EF42C79145900A0974B /* Sources */,
+				93215EF52C79145900A0974B /* Frameworks */,
+				93215EF62C79145900A0974B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93215EFA2C79145900A0974B /* PBXTargetDependency */,
+			);
+			name = "Karate TrainerUITests";
+			productName = "Karate TrainerUITests";
+			productReference = 93215EF82C79145900A0974B /* Karate TrainerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93215ED32C79145700A0974B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					93215EDA2C79145700A0974B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					93215EED2C79145900A0974B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 93215EDA2C79145700A0974B;
+					};
+					93215EF72C79145900A0974B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 93215EDA2C79145700A0974B;
+					};
+				};
+			};
+			buildConfigurationList = 93215ED62C79145700A0974B /* Build configuration list for PBXProject "Karate Trainer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93215ED22C79145700A0974B;
+			productRefGroup = 93215EDC2C79145700A0974B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93215EDA2C79145700A0974B /* Karate Trainer */,
+				93215EED2C79145900A0974B /* Karate TrainerTests */,
+				93215EF72C79145900A0974B /* Karate TrainerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93215ED92C79145700A0974B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93215EE92C79145900A0974B /* Preview Assets.xcassets in Resources */,
+				93215EE52C79145900A0974B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93215EEC2C79145900A0974B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93215EF62C79145900A0974B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93215ED72C79145700A0974B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93215EE12C79145700A0974B /* ContentView.swift in Sources */,
+				93215EE32C79145700A0974B /* Item.swift in Sources */,
+				93215EDF2C79145700A0974B /* Karate_TrainerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93215EEA2C79145900A0974B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93215EF32C79145900A0974B /* Karate_TrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93215EF42C79145900A0974B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93215EFF2C79145900A0974B /* Karate_TrainerUITestsLaunchTests.swift in Sources */,
+				93215EFD2C79145900A0974B /* Karate_TrainerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93215EF02C79145900A0974B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93215EDA2C79145700A0974B /* Karate Trainer */;
+			targetProxy = 93215EEF2C79145900A0974B /* PBXContainerItemProxy */;
+		};
+		93215EFA2C79145900A0974B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93215EDA2C79145700A0974B /* Karate Trainer */;
+			targetProxy = 93215EF92C79145900A0974B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93215F002C79145900A0974B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93215F012C79145900A0974B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		93215F032C79145900A0974B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Karate Trainer/Karate_Trainer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Karate Trainer/Preview Content\"";
+				DEVELOPMENT_TEAM = GF92B684W8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93215F042C79145900A0974B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Karate Trainer/Karate_Trainer.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Karate Trainer/Preview Content\"";
+				DEVELOPMENT_TEAM = GF92B684W8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93215F062C79145900A0974B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karate Trainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Karate Trainer";
+			};
+			name = Debug;
+		};
+		93215F072C79145900A0974B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-TrainerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karate Trainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Karate Trainer";
+			};
+			name = Release;
+		};
+		93215F092C79145900A0974B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Karate Trainer";
+			};
+			name = Debug;
+		};
+		93215F0A2C79145900A0974B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-TrainerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Karate Trainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93215ED62C79145700A0974B /* Build configuration list for PBXProject "Karate Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93215F002C79145900A0974B /* Debug */,
+				93215F012C79145900A0974B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93215F022C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate Trainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93215F032C79145900A0974B /* Debug */,
+				93215F042C79145900A0974B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93215F052C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate TrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93215F062C79145900A0974B /* Debug */,
+				93215F072C79145900A0974B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93215F082C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate TrainerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93215F092C79145900A0974B /* Debug */,
+				93215F0A2C79145900A0974B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 93215ED32C79145700A0974B /* Project object */;
+}
