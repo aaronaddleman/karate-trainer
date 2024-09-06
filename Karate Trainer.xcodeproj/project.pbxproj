@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		931B3E372C87E2FB00FAD8A5 /* TechniqueTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E362C87E2FB00FAD8A5 /* TechniqueTimerView.swift */; };
 		931B3E392C87E51600FAD8A5 /* EditSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E382C87E51600FAD8A5 /* EditSessionView.swift */; };
+		931B3E472C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E462C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift */; };
 		93215EDF2C79145700A0974B /* Karate_TrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */; };
 		93215EE12C79145700A0974B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EE02C79145700A0974B /* ContentView.swift */; };
 		93215EE32C79145700A0974B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EE22C79145700A0974B /* Item.swift */; };
@@ -49,6 +50,8 @@
 /* Begin PBXFileReference section */
 		931B3E362C87E2FB00FAD8A5 /* TechniqueTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueTimerView.swift; sourceTree = "<group>"; };
 		931B3E382C87E51600FAD8A5 /* EditSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSessionView.swift; sourceTree = "<group>"; };
+		931B3E452C8AC49200FAD8A5 /* Karate-Trainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Karate-Trainer-Info.plist"; sourceTree = SOURCE_ROOT; };
+		931B3E462C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueSelectionRow.swift; sourceTree = "<group>"; };
 		93215EDB2C79145700A0974B /* Karate Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karate Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_TrainerApp.swift; sourceTree = "<group>"; };
 		93215EE02C79145700A0974B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,10 +124,12 @@
 		93215EDD2C79145700A0974B /* Karate Trainer */ = {
 			isa = PBXGroup;
 			children = (
+				931B3E452C8AC49200FAD8A5 /* Karate-Trainer-Info.plist */,
 				936E283E2C87D61900F510FB /* BlocksView.swift */,
 				93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */,
 				93215EE02C79145700A0974B /* ContentView.swift */,
 				936E28492C87D76600F510FB /* TrainingSession.swift */,
+				931B3E462C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift */,
 				936E28452C87D6C700F510FB /* StartTrainingView.swift */,
 				931B3E362C87E2FB00FAD8A5 /* TechniqueTimerView.swift */,
 				936E28432C87D67F00F510FB /* StrikesView.swift */,
@@ -308,6 +313,7 @@
 				936E28402C87D62D00F510FB /* BlocksView.swift in Sources */,
 				93215EE32C79145700A0974B /* Item.swift in Sources */,
 				931B3E392C87E51600FAD8A5 /* EditSessionView.swift in Sources */,
+				931B3E472C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift in Sources */,
 				936E28422C87D63B00F510FB /* PracticeModesView.swift in Sources */,
 				936E28372C87D55700F510FB /* TrainingSessionsView.swift in Sources */,
 				936E284A2C87D76600F510FB /* TrainingSession.swift in Sources */,
@@ -478,14 +484,21 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Karate-Trainer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Karate Trainer";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses speech recognition to detect specific phrases during your training sessions";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to detect specific phrases during your training sessions";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -521,14 +534,21 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Karate-Trainer-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Karate Trainer";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app uses speech recognition to detect specific phrases during your training sessions";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app uses speech recognition to detect specific phrases during your training sessions";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

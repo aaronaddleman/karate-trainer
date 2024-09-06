@@ -1,10 +1,15 @@
 // Techniques.swift
 import Foundation
 
-struct Technique: Identifiable {
-    var id = UUID() // unique identifier for each technique
-    var name: String // name of the technique
-    var category: String // Category
+struct Technique: Identifiable, Equatable {
+    var id = UUID()
+    var name: String
+    var category: String
+    
+    // Manually conform to Equatable
+    static func == (lhs: Technique, rhs: Technique) -> Bool {
+        return lhs.id == rhs.id && lhs.name == rhs.name
+    }
 }
 
 let predefinedTechniques = [

@@ -3,6 +3,8 @@ import SwiftUI
 struct EditSessionView: View {
     @Binding var session: TrainingSession
     @Binding var allTechniques: [Technique]
+    @State private var isFeetTogetherEnabled: Bool = false // Toggle state for voice command
+    @State private var randomizeTechniques: Bool = false // Toggle state for randomizing techniques
 
     var body: some View {
         Form {
@@ -26,6 +28,18 @@ struct EditSessionView: View {
                     }
                 }
             }
+
+            Section(header: Text("Settings")) {
+                Toggle("Enable 'Feet Together'", isOn: $isFeetTogetherEnabled)
+                    .onChange(of: isFeetTogetherEnabled) { value in
+                        session.isFeetTogetherEnabled = value
+                    }
+
+                Toggle("Randomize Techniques", isOn: $randomizeTechniques)
+                    .onChange(of: randomizeTechniques) { value in
+                        session.randomizeTechniques = value
+                    }
+            }
         }
         .navigationTitle("Edit \(session.name)")
     }
@@ -43,7 +57,8 @@ struct EditSessionView: View {
     }
 }
 
-// Add this below the EditSessionView struct
+
+// Assuming this struct is already in your code
 struct MultipleSelectionRow: View {
     var title: String
     var isSelected: Bool
