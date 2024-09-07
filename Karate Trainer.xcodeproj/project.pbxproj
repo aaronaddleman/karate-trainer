@@ -10,6 +10,19 @@
 		931B3E372C87E2FB00FAD8A5 /* TechniqueTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E362C87E2FB00FAD8A5 /* TechniqueTimerView.swift */; };
 		931B3E392C87E51600FAD8A5 /* EditSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E382C87E51600FAD8A5 /* EditSessionView.swift */; };
 		931B3E472C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E462C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift */; };
+		931B3E4F2C8BFE8100FAD8A5 /* Karate_Trainer_watchOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E4E2C8BFE8100FAD8A5 /* Karate_Trainer_watchOSApp.swift */; };
+		931B3E512C8BFE8100FAD8A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E502C8BFE8100FAD8A5 /* ContentView.swift */; };
+		931B3E532C8BFE8300FAD8A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931B3E522C8BFE8300FAD8A5 /* Assets.xcassets */; };
+		931B3E562C8BFE8300FAD8A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 931B3E552C8BFE8300FAD8A5 /* Preview Assets.xcassets */; };
+		931B3E602C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E5F2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppTests.swift */; };
+		931B3E6A2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E692C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITests.swift */; };
+		931B3E6C2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E6B2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITestsLaunchTests.swift */; };
+		931B3E6F2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 931B3E4C2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		931B3E7B2C8BFF6200FAD8A5 /* WatchMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E7A2C8BFF6200FAD8A5 /* WatchMotionManager.swift */; };
+		931B3E7D2C8C026F00FAD8A5 /* iPhoneSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E7C2C8C026F00FAD8A5 /* iPhoneSessionManager.swift */; };
+		931B3E802C8C02D100FAD8A5 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B3E7F2C8C02D100FAD8A5 /* WatchConnectivity.framework */; };
+		931B3E822C8C02DF00FAD8A5 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 931B3E812C8C02DF00FAD8A5 /* WatchConnectivity.framework */; };
+		931B3E852C8C041A00FAD8A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 931B3E842C8C041A00FAD8A5 /* AppDelegate.swift */; };
 		93215EDF2C79145700A0974B /* Karate_TrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */; };
 		93215EE12C79145700A0974B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EE02C79145700A0974B /* ContentView.swift */; };
 		93215EE32C79145700A0974B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93215EE22C79145700A0974B /* Item.swift */; };
@@ -31,6 +44,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		931B3E5C2C8BFE8300FAD8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93215ED32C79145700A0974B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931B3E4B2C8BFE8100FAD8A5;
+			remoteInfo = "Karate Trainer watchOS Watch App";
+		};
+		931B3E662C8BFE8300FAD8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93215ED32C79145700A0974B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931B3E4B2C8BFE8100FAD8A5;
+			remoteInfo = "Karate Trainer watchOS Watch App";
+		};
+		931B3E6D2C8BFE8300FAD8A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93215ED32C79145700A0974B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 931B3E4B2C8BFE8100FAD8A5;
+			remoteInfo = "Karate Trainer watchOS Watch App";
+		};
 		93215EEF2C79145900A0974B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 93215ED32C79145700A0974B /* Project object */;
@@ -47,11 +81,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		931B3E732C8BFE8300FAD8A5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				931B3E6F2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		931B3E362C87E2FB00FAD8A5 /* TechniqueTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueTimerView.swift; sourceTree = "<group>"; };
 		931B3E382C87E51600FAD8A5 /* EditSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditSessionView.swift; sourceTree = "<group>"; };
 		931B3E452C8AC49200FAD8A5 /* Karate-Trainer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Karate-Trainer-Info.plist"; sourceTree = SOURCE_ROOT; };
 		931B3E462C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechniqueSelectionRow.swift; sourceTree = "<group>"; };
+		931B3E4C2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karate Trainer watchOS Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B3E4E2C8BFE8100FAD8A5 /* Karate_Trainer_watchOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_Trainer_watchOSApp.swift; sourceTree = "<group>"; };
+		931B3E502C8BFE8100FAD8A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		931B3E522C8BFE8300FAD8A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		931B3E552C8BFE8300FAD8A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		931B3E5B2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karate Trainer watchOS Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B3E5F2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_Trainer_watchOS_Watch_AppTests.swift; sourceTree = "<group>"; };
+		931B3E652C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Karate Trainer watchOS Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931B3E692C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_Trainer_watchOS_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		931B3E6B2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_Trainer_watchOS_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		931B3E7A2C8BFF6200FAD8A5 /* WatchMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchMotionManager.swift; sourceTree = "<group>"; };
+		931B3E7C2C8C026F00FAD8A5 /* iPhoneSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhoneSessionManager.swift; sourceTree = "<group>"; };
+		931B3E7F2C8C02D100FAD8A5 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		931B3E812C8C02DF00FAD8A5 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.5.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		931B3E832C8C031F00FAD8A5 /* Karate-Trainer-watchOS-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Karate-Trainer-watchOS-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		931B3E842C8C041A00FAD8A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93215EDB2C79145700A0974B /* Karate Trainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Karate Trainer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Karate_TrainerApp.swift; sourceTree = "<group>"; };
 		93215EE02C79145700A0974B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,10 +141,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		931B3E492C8BFE8100FAD8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B3E822C8C02DF00FAD8A5 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B3E582C8BFE8300FAD8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B3E622C8BFE8300FAD8A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93215ED82C79145700A0974B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				931B3E802C8C02D100FAD8A5 /* WatchConnectivity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +188,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		931B3E4D2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				931B3E832C8C031F00FAD8A5 /* Karate-Trainer-watchOS-Watch-App-Info.plist */,
+				931B3E4E2C8BFE8100FAD8A5 /* Karate_Trainer_watchOSApp.swift */,
+				931B3E502C8BFE8100FAD8A5 /* ContentView.swift */,
+				931B3E522C8BFE8300FAD8A5 /* Assets.xcassets */,
+				931B3E542C8BFE8300FAD8A5 /* Preview Content */,
+				931B3E7A2C8BFF6200FAD8A5 /* WatchMotionManager.swift */,
+			);
+			path = "Karate Trainer watchOS Watch App";
+			sourceTree = "<group>";
+		};
+		931B3E542C8BFE8300FAD8A5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				931B3E552C8BFE8300FAD8A5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		931B3E5E2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				931B3E5F2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppTests.swift */,
+			);
+			path = "Karate Trainer watchOS Watch AppTests";
+			sourceTree = "<group>";
+		};
+		931B3E682C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				931B3E692C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITests.swift */,
+				931B3E6B2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Karate Trainer watchOS Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		931B3E7E2C8C02D000FAD8A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				931B3E812C8C02DF00FAD8A5 /* WatchConnectivity.framework */,
+				931B3E7F2C8C02D100FAD8A5 /* WatchConnectivity.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		93215ED22C79145700A0974B = {
 			isa = PBXGroup;
 			children = (
 				93215EDD2C79145700A0974B /* Karate Trainer */,
 				93215EF12C79145900A0974B /* Karate TrainerTests */,
 				93215EFB2C79145900A0974B /* Karate TrainerUITests */,
+				931B3E4D2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */,
+				931B3E5E2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests */,
+				931B3E682C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests */,
 				93215EDC2C79145700A0974B /* Products */,
+				931B3E7E2C8C02D000FAD8A5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +255,9 @@
 				93215EDB2C79145700A0974B /* Karate Trainer.app */,
 				93215EEE2C79145900A0974B /* Karate TrainerTests.xctest */,
 				93215EF82C79145900A0974B /* Karate TrainerUITests.xctest */,
+				931B3E4C2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App.app */,
+				931B3E5B2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests.xctest */,
+				931B3E652C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,8 +267,10 @@
 			children = (
 				931B3E452C8AC49200FAD8A5 /* Karate-Trainer-Info.plist */,
 				936E283E2C87D61900F510FB /* BlocksView.swift */,
+				931B3E842C8C041A00FAD8A5 /* AppDelegate.swift */,
 				93215EDE2C79145700A0974B /* Karate_TrainerApp.swift */,
 				93215EE02C79145700A0974B /* ContentView.swift */,
+				931B3E7C2C8C026F00FAD8A5 /* iPhoneSessionManager.swift */,
 				936E28492C87D76600F510FB /* TrainingSession.swift */,
 				931B3E462C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift */,
 				936E28452C87D6C700F510FB /* StartTrainingView.swift */,
@@ -176,6 +319,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		931B3E4B2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B3E702C8BFE8300FAD8A5 /* Build configuration list for PBXNativeTarget "Karate Trainer watchOS Watch App" */;
+			buildPhases = (
+				931B3E482C8BFE8100FAD8A5 /* Sources */,
+				931B3E492C8BFE8100FAD8A5 /* Frameworks */,
+				931B3E4A2C8BFE8100FAD8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Karate Trainer watchOS Watch App";
+			productName = "Karate Trainer watchOS Watch App";
+			productReference = 931B3E4C2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		931B3E5A2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B3E742C8BFE8300FAD8A5 /* Build configuration list for PBXNativeTarget "Karate Trainer watchOS Watch AppTests" */;
+			buildPhases = (
+				931B3E572C8BFE8300FAD8A5 /* Sources */,
+				931B3E582C8BFE8300FAD8A5 /* Frameworks */,
+				931B3E592C8BFE8300FAD8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931B3E5D2C8BFE8300FAD8A5 /* PBXTargetDependency */,
+			);
+			name = "Karate Trainer watchOS Watch AppTests";
+			productName = "Karate Trainer watchOS Watch AppTests";
+			productReference = 931B3E5B2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		931B3E642C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 931B3E772C8BFE8300FAD8A5 /* Build configuration list for PBXNativeTarget "Karate Trainer watchOS Watch AppUITests" */;
+			buildPhases = (
+				931B3E612C8BFE8300FAD8A5 /* Sources */,
+				931B3E622C8BFE8300FAD8A5 /* Frameworks */,
+				931B3E632C8BFE8300FAD8A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				931B3E672C8BFE8300FAD8A5 /* PBXTargetDependency */,
+			);
+			name = "Karate Trainer watchOS Watch AppUITests";
+			productName = "Karate Trainer watchOS Watch AppUITests";
+			productReference = 931B3E652C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		93215EDA2C79145700A0974B /* Karate Trainer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93215F022C79145900A0974B /* Build configuration list for PBXNativeTarget "Karate Trainer" */;
@@ -183,10 +379,12 @@
 				93215ED72C79145700A0974B /* Sources */,
 				93215ED82C79145700A0974B /* Frameworks */,
 				93215ED92C79145700A0974B /* Resources */,
+				931B3E732C8BFE8300FAD8A5 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				931B3E6E2C8BFE8300FAD8A5 /* PBXTargetDependency */,
 			);
 			name = "Karate Trainer";
 			productName = "Karate Trainer";
@@ -239,6 +437,17 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					931B3E4B2C8BFE8100FAD8A5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					931B3E5A2C8BFE8300FAD8A5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 931B3E4B2C8BFE8100FAD8A5;
+					};
+					931B3E642C8BFE8300FAD8A5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 931B3E4B2C8BFE8100FAD8A5;
+					};
 					93215EDA2C79145700A0974B = {
 						CreatedOnToolsVersion = 15.4;
 					};
@@ -268,11 +477,37 @@
 				93215EDA2C79145700A0974B /* Karate Trainer */,
 				93215EED2C79145900A0974B /* Karate TrainerTests */,
 				93215EF72C79145900A0974B /* Karate TrainerUITests */,
+				931B3E4B2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */,
+				931B3E5A2C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppTests */,
+				931B3E642C8BFE8300FAD8A5 /* Karate Trainer watchOS Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		931B3E4A2C8BFE8100FAD8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B3E562C8BFE8300FAD8A5 /* Preview Assets.xcassets in Resources */,
+				931B3E532C8BFE8300FAD8A5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B3E592C8BFE8300FAD8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B3E632C8BFE8300FAD8A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93215ED92C79145700A0974B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +534,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		931B3E482C8BFE8100FAD8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B3E7B2C8BFF6200FAD8A5 /* WatchMotionManager.swift in Sources */,
+				931B3E512C8BFE8100FAD8A5 /* ContentView.swift in Sources */,
+				931B3E4F2C8BFE8100FAD8A5 /* Karate_Trainer_watchOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B3E572C8BFE8300FAD8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B3E602C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B3E612C8BFE8300FAD8A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				931B3E6C2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITestsLaunchTests.swift in Sources */,
+				931B3E6A2C8BFE8300FAD8A5 /* Karate_Trainer_watchOS_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93215ED72C79145700A0974B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -315,9 +577,11 @@
 				931B3E392C87E51600FAD8A5 /* EditSessionView.swift in Sources */,
 				931B3E472C8ACCFD00FAD8A5 /* TechniqueSelectionRow.swift in Sources */,
 				936E28422C87D63B00F510FB /* PracticeModesView.swift in Sources */,
+				931B3E852C8C041A00FAD8A5 /* AppDelegate.swift in Sources */,
 				936E28372C87D55700F510FB /* TrainingSessionsView.swift in Sources */,
 				936E284A2C87D76600F510FB /* TrainingSession.swift in Sources */,
 				936E28482C87D6DC00F510FB /* ModifyTrainingSessionsView.swift in Sources */,
+				931B3E7D2C8C026F00FAD8A5 /* iPhoneSessionManager.swift in Sources */,
 				93215EDF2C79145700A0974B /* Karate_TrainerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +606,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		931B3E5D2C8BFE8300FAD8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931B3E4B2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */;
+			targetProxy = 931B3E5C2C8BFE8300FAD8A5 /* PBXContainerItemProxy */;
+		};
+		931B3E672C8BFE8300FAD8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931B3E4B2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */;
+			targetProxy = 931B3E662C8BFE8300FAD8A5 /* PBXContainerItemProxy */;
+		};
+		931B3E6E2C8BFE8300FAD8A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 931B3E4B2C8BFE8100FAD8A5 /* Karate Trainer watchOS Watch App */;
+			targetProxy = 931B3E6D2C8BFE8300FAD8A5 /* PBXContainerItemProxy */;
+		};
 		93215EF02C79145900A0974B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 93215EDA2C79145700A0974B /* Karate Trainer */;
@@ -355,9 +634,163 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		931B3E712C8BFE8300FAD8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Karate Trainer watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GF92B684W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Karate-Trainer-watchOS-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Karate Trainer watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "cc.addleman.Karate-Trainer";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		931B3E722C8BFE8300FAD8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Karate Trainer watchOS Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = GF92B684W8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Karate-Trainer-watchOS-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Karate Trainer watchOS";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "cc.addleman.Karate-Trainer";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		931B3E752C8BFE8300FAD8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer-watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karate Trainer watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Karate Trainer watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		931B3E762C8BFE8300FAD8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer-watchOS-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Karate Trainer watchOS Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Karate Trainer watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		931B3E782C8BFE8300FAD8A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Karate Trainer watchOS Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		931B3E792C8BFE8300FAD8A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GF92B684W8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "cc.addleman.Karate-Trainer-watchOS-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Karate Trainer watchOS Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
 		93215F002C79145900A0974B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -407,18 +840,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Debug;
 		};
 		93215F012C79145900A0974B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -462,16 +898,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
 			};
 			name = Release;
 		};
 		93215F032C79145900A0974B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
@@ -522,6 +961,7 @@
 		93215F042C79145900A0974B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_USE_OPTIMIZATION_PROFILE = YES;
@@ -662,6 +1102,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		931B3E702C8BFE8300FAD8A5 /* Build configuration list for PBXNativeTarget "Karate Trainer watchOS Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B3E712C8BFE8300FAD8A5 /* Debug */,
+				931B3E722C8BFE8300FAD8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931B3E742C8BFE8300FAD8A5 /* Build configuration list for PBXNativeTarget "Karate Trainer watchOS Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B3E752C8BFE8300FAD8A5 /* Debug */,
+				931B3E762C8BFE8300FAD8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		931B3E772C8BFE8300FAD8A5 /* Build configuration list for PBXNativeTarget "Karate Trainer watchOS Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				931B3E782C8BFE8300FAD8A5 /* Debug */,
+				931B3E792C8BFE8300FAD8A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		93215ED62C79145700A0974B /* Build configuration list for PBXProject "Karate Trainer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

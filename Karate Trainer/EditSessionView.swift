@@ -3,59 +3,90 @@ import SwiftUI
 struct EditSessionView: View {
     @Binding var session: TrainingSession
     @Binding var allTechniques: [Technique]
-    @State private var isFeetTogetherEnabled: Bool = false // Toggle state for voice command
-    @State private var randomizeTechniques: Bool = false // Toggle state for randomizing techniques
-
+    
     var body: some View {
         Form {
+            // Session Name Section
             Section(header: Text("Session Name")) {
                 TextField("Session Name", text: $session.name)
             }
-
+            
+            // Selected Techniques Section
             Section(header: Text("Selected Techniques")) {
                 List {
                     ForEach(session.techniques) { technique in
-                        Text(technique.name)
+                        HStack {
+                            Text(technique.name)
+                            Spacer()
+                            Text(technique.category)
+                                .foregroundColor(.gray)
+                        }
                     }
-                    .onDelete(perform: removeTechnique)
+                    .onDelete(perform: removeSelectedTechnique)
                 }
             }
-
-            Section(header: Text("Add Techniques")) {
+            
+            // Available Techniques Section
+            Section(header: Text("Available Techniques")) {
                 List(allTechniques) { technique in
-                    MultipleSelectionRow(title: technique.name, isSelected: session.techniques.contains(where: { $0.id == technique.id })) {
-                        toggleTechniqueSelection(technique: technique)
+                    HStack {
+                        Text(technique.name)
+                        Spacer()
+                        Text(technique.category)
+                            .foregroundColor(.gray)
+                        
+                        if session.techniques.contains(where: { $0.id == technique.id }) {
+                            Image(systemName: "checkmark")
+                                .foregroundColor(.green)
+                        }
+                    }
+                    .contentShape(Rectangle()) // Makes the entire row tappable
+                    .onTapGesture {
+                        toggleTechniqueSelection(technique)
                     }
                 }
             }
-
+            
+            // Timer Duration Section
+            Section(header: Text("Set Time Between Techniques")) {
+                HStack {
+                    Text("Time (seconds):")
+                    Spacer()
+                    TextField("Seconds", value: $session.timeBetweenTechniques, format: .number)
+                        .keyboardType(.numberPad)
+                        .frame(width: 50)
+                        .multilineTextAlignment(.trailing)
+                }
+            }
+            
+            // Settings for Feet Together
             Section(header: Text("Settings")) {
-                Toggle("Enable 'Feet Together'", isOn: $isFeetTogetherEnabled)
-                    .onChange(of: isFeetTogetherEnabled) { value in
-                        session.isFeetTogetherEnabled = value
-                    }
-
-                Toggle("Randomize Techniques", isOn: $randomizeTechniques)
-                    .onChange(of: randomizeTechniques) { value in
-                        session.randomizeTechniques = value
-                    }
+                Toggle("Enable 'Feet Together'", isOn: $session.isFeetTogetherEnabled)
+            }
+            
+            // Randomize Techniques Toggle
+            Section(header: Text("Randomize Techniques")) {
+                Toggle("Randomize Techniques", isOn: $session.randomizeTechniques)
             }
         }
         .navigationTitle("Edit \(session.name)")
     }
-
-    private func toggleTechniqueSelection(technique: Technique) {
+    
+    // Toggle technique selection
+    private func toggleTechniqueSelection(_ technique: Technique) {
         if let index = session.techniques.firstIndex(where: { $0.id == technique.id }) {
             session.techniques.remove(at: index)
         } else {
             session.techniques.append(technique)
         }
     }
-
-    private func removeTechnique(at offsets: IndexSet) {
+    
+    // Remove a technique from the selected list
+    private func removeSelectedTechnique(at offsets: IndexSet) {
         session.techniques.remove(atOffsets: offsets)
     }
 }
+
 
 
 // Assuming this struct is already in your code

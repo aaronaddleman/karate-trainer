@@ -1,9 +1,9 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var techniques: [Technique] = predefinedTechniques // Use the renamed global array
-    @State private var trainingSessions: [TrainingSession] = []
-
+    @State private var trainingSessions: [TrainingSession] = predefinedTrainingSessions
+    @State private var techniques: [Technique] = predefinedTechniques
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 20) {
@@ -12,7 +12,8 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .padding()
 
-                NavigationLink(destination: StartTrainingView(trainingSessions: trainingSessions)) {
+                // Navigate to session selection
+                NavigationLink(destination: TrainingSessionsView(trainingSessions: $trainingSessions, allTechniques: $techniques)) {
                     Text("Start Training")
                         .font(.title2)
                         .padding()
@@ -22,6 +23,7 @@ struct ContentView: View {
                         .cornerRadius(10)
                 }
 
+                // Navigate to Modify Training Sessions, passing trainingSessions and techniques
                 NavigationLink(destination: ModifyTrainingSessionsView(trainingSessions: $trainingSessions, allTechniques: $techniques)) {
                     Text("Modify Training Sessions")
                         .font(.title2)
@@ -32,6 +34,7 @@ struct ContentView: View {
                         .cornerRadius(10)
                 }
 
+                // Navigate to Techniques View, passing techniques
                 NavigationLink(destination: TechniquesView(techniques: $techniques)) {
                     Text("Techniques")
                         .font(.title2)
@@ -41,9 +44,11 @@ struct ContentView: View {
                         .foregroundColor(.white)
                         .cornerRadius(10)
                 }
+                
             }
             .padding()
             .navigationTitle("Karate Trainer")
         }
     }
 }
+
